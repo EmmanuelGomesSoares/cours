@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head><meta charset="utf-8" />
+		<title>Page Title</title>
+	</head>
+	<body>
+
+		<h1>Définitions</h1>
+		<p><u title="souligné : balise <i>">Une page web</u> est une page écrite en <abbr title="HyperText Markup Langage">HTML</abbr> et <abbr title="Cascade Style Sheet">CSS</abbr> (et <abbr title="Javascript : langage de programmation des pages web">JS</abbr>) ; elle est interprétée par le navigateur (<i title="italique : balise <i>">chrome</i>, <mark title="surligné en jaune : balise <mark>">firefox</mark>, <del title="supprimé = rayé : balise <del>">internet-explorer</del>, <ins title="insertion : balise <ins>">safari</ins> ...)</p>
+
+    <h2>les différents types de balises</h2>
+    <p>Il y a deux types de balises :</p>
+    <ol>
+    	<li>les balises usuelles qui encadrent du code html. Le code encadré fini par &lt;/balise &gt; ;</li>&#5689; &amp;
+    	<li>les balises orphelines qui n'encadrent aucun code et qui se ferment elles-mêmes ; par exemple :
+        <dl>
+        	<dt>&lt;br/ &gt;</dt>
+            <dt>&lt;hr/ &gt;</dt>
+            <dt>&lt;img/ &gt;</dt>
+            <dt>&lt;input/ &gt;</dt>
+           
+        </dl>
+        </li>
+    </ol>
+    
+    <h2>Les balises peuvent avoir des attributs</h2>
+    <p><dfn>Un attribut désigne une caractéristique d'une balise. Cette balise est interprété comme un objet par le navigateur, elle prend une valeur par défaut à l'initialisation du site mais elle peut être modifiée. </dfn><br/>Exemple &lt;p style="color:red"&gt;</p>
+    <p style="color:red" onclick="this.style.fontSize = '300%';">essai</p>
+	</body>
+</html>
